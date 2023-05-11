@@ -4,10 +4,10 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-  # def new
-  #   @post = Post.new
-  #   # render posts/new view with new Post form
-  # end
+def new
+  @post = Post.new
+  render posts/new view with new Post form
+end
 
   # def create
   #   # start with a new Post
